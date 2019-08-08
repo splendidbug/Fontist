@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FCF3CF"
+        android:padding="12dp">
+
+
+        <requestFocus />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/floatinghint">
+
+            <EditText
+                android:id="@+id/entertext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your text here"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:id="@+id/fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:fontFamily="sans-serif"
+            android:text="                           Fonts"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/confettti"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#8353;&#7550;&#8377;&#8377;&#8364;&#8358;&#8353;&#165;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-40dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/circlled"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#9400;&#9406;&#9415;&#9400;&#9409;&#9402;&#9401;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp2"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/thai"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#65394;&#12435;&#65425;&#65417;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp3"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/paranthesized"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#9387;&#9372;&#9389;&#9372;&#9385;&#9391;&#9379;&#9376;&#9390;&#9380;&#9397;&#9376;&#9375;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp4"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/curly"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#162;&#3618;&#1075;&#621;&#1509;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp5"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/ancient"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#4621;&#4781;&#4653;&#4878;&#4735;&#4781;&#4949;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp6"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/upsidedown"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#110;&#100;&#115;&#305;&#112;&#101;&#112;&#111;&#653;&#117;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp7"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy7"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/smallcaps"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#115;&#7437;&#7424;&#671;&#671;&#7428;&#7424;&#7448;&#115;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp8"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy8"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/paranormal"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#112;&#945;&#114;&#945;&#110;&#963;&#114;&#109;&#945;&#108;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp9"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy9"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/symbols"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#9442;&#9791;&#9812;&#9837;&#8857;&#8627;&#9442;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp10"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy10"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/special"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="&#5397;&#5229;&#69;&#5205;&#73;&#5609;&#5290;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp11"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy11"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+        <TextView
+            android:id="@+id/love"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif"
+            android:text="L&#9829;O&#9829;V&#9829;E&#9829;"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/whatsapp12"
+            android:layout_width="41dp"
+            android:layout_height="42dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@android:drawable/ic_menu_set_as" />
+
+        <ImageButton
+            android:id="@+id/copy12"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-42dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/k" />
+
+
+    </LinearLayout>
+
+</ScrollView>
